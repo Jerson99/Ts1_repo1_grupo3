@@ -8,4 +8,12 @@ def raiz_entera( num ):
     return True
 
 def capicua( num ):
-    return True
+    #Juan Romero
+    
+    _text = str( num )
+    _list = list( _text )
+    _reverse = _list.copy()
+    _reverse.reverse()
+
+    #Si el la lista de elementos y su inversa son iguales, el numero es capicua
+    return _list == _reverse
