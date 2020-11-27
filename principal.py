@@ -1,8 +1,9 @@
-import lib
-
-factorial = 1
-f = int(input("Ingrese el numero:   "))
-for x in range (1,f+1):
-    factorial = factorial * x
+def factorial(num):
+    fact = 1
+    for i in range(1, num):
+        fact += fact * i
+    return fact
  
-print (" El factorial del número",f," ", "es",factorial)
+ 
+numero = int(input('Ingrese un numero'))
+print('Su factorial es :', factorial(numero))
