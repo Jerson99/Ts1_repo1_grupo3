@@ -1,2 +1,3 @@
 # Ts1_repo1_grupo3
- Trabajo
+ Trabajo final del curso Estructuras de Datos y Algoritmos.
+ 
