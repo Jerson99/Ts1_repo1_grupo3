@@ -1,15 +1,11 @@
 import lib
 
-def f(n):
-    a=1
-    if n<0:
-        return 0
-    elif n==0:
-        return 0
-    else:
-        for i in range(2,n+1):
-            a=a*i
-        return a
+factorial = 1
+f = int(input("Ingrese el numero:   "))
+for x in range (1,f+1):
+    factorial = factorial * x
+ 
+print (" El factorial del número",f," ", "es",factorial)
 
 .
 
