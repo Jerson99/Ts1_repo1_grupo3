@@ -1,4 +1,4 @@
-# Trabajo Final - Estructuras de Datos y Algoritmos - 2020
+# Trabajo Final - Taller de software 1  - 2020
  Trabajo final del curso Taller de software 1 
  Librería en python y archivo principal con pruebas para los métodos implementados
  
