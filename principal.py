@@ -1,3 +1,4 @@
+
 import lib
 
 #Probar posible números
@@ -34,3 +35,13 @@ if (evaluar_primo(n)==True):
     print("el numero es primo")
 else :
     print("el numero no es primo")
+
+def factorial(num):
+    fact = 1
+    for i in range(1, num):
+        fact += fact * i
+    return fact
+ 
+ 
+numero = int(input('Ingrese un numero'))
+print('Su factorial es :', factorial(numero))
